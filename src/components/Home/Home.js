@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/Face.jpg";
 import Particle from "../Particle";
@@ -21,7 +21,7 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
+                I´M
                 <strong className="main-name"> Roberto Jimenez</strong>
               </h1>
 
@@ -35,7 +35,7 @@ function Home() {
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px", height: "450px", width: "400px", borderRadius: "20%",  }}
+                style={{ maxHeight: "450px", height: "450px", width: "450px", borderRadius: "20%",  }}
               />
             </Col>
           </Row>

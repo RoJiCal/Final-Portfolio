@@ -1,4 +1,4 @@
-import React from "react";
+
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
@@ -21,18 +21,24 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Technology
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Science
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Music producer
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Family
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Sport
             </li>
           </ul>
 
           <p style={{ color: "#d26200" }}>
-            "Strive to build things that make a difference!"{" "}
+          The practice makes the senior!{" "}
           </p>
           <footer className="blockquote-footer">Roberto</footer>
         </blockquote>
