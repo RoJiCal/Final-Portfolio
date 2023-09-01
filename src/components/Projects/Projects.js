@@ -2,7 +2,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import braz from "../../Assets/braz.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import paper from "../../Assets/paper.png";
 import glitz from "../../Assets/glitz.png";
@@ -56,11 +56,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={braz}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              title="E-Comerce"
+              description="A realistic example of how to make an e-commerce with ReactJs, is the clothing brand of a friend and was one of the projects that most excited me."
+              ghLink="https://joyful-croquembouche-a50b43.netlify.app"
               // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
