@@ -1,4 +1,3 @@
-import React from "react";
 import Particles from "react-tsparticles";
 
 function Particle() {
@@ -23,16 +22,21 @@ function Particle() {
             speed: 0.05,
           },
           size: {
-            value: 1,
+            value: 2,
           },
           opacity: {
             anim: {
               enable: true,
               speed: 1,
-              opacity_min: 0.05,
+              opacity_min: 0.09,
             },
+            value: 0.5, // Aumenta este valor para hacer que las partículas sean más brillantes
+          },
+          color: {
+            value: "#FFA500",
           },
         },
+        
         interactivity: {
           events: {
             onclick: {
@@ -53,3 +57,4 @@ function Particle() {
 }
 
 export default Particle;
+
