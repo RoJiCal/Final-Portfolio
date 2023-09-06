@@ -9,15 +9,12 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Roberto Jimenez </span>
-            from <span className="purple"> Madrid, Spain.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
-            <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
+            from <span className="purple"> Madrid, Spain</span>, currently based in <span className="purple">Cologne, Germany.</span>
+            <br /> 
+            <br /> I have completed a year of professional training as a fullstack web developer and currently looking for a job or internship.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, these are some other things I love:
           </p>
           <ul>
             <li className="about-activity">
@@ -27,18 +24,18 @@ function AboutCard() {
               <ImPointRight /> Science
             </li>
             <li className="about-activity">
-              <ImPointRight /> Music producer
+              <ImPointRight /> Music production
             </li>
             <li className="about-activity">
               <ImPointRight /> Family
             </li>
             <li className="about-activity">
-              <ImPointRight /> Sport
+              <ImPointRight /> Sports
             </li>
           </ul>
 
           <p style={{ color: "#d26200" }}>
-          The practice makes the senior!{" "}
+          Practice makes perfect !{" "}
           </p>
           <footer className="blockquote-footer">Roberto</footer>
         </blockquote>
