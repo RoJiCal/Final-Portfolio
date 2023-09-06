@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
@@ -10,7 +10,7 @@ import {
 } from "react-icons/si";
 import{
   FaUbuntu,
-  FaFigma,
+  
   FaGithub,
 
 } from "react-icons/fa"
